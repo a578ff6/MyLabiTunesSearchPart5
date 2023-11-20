@@ -20,6 +20,7 @@
 		934F4E1F2B0223A30029B683 /* StoreItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4E1E2B0223A30029B683 /* StoreItemController.swift */; };
 		934F4E212B034AC50029B683 /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4E202B034AC50029B683 /* ItemCollectionViewCell.swift */; };
 		934F4E232B036DE70029B683 /* ItemDisplaying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934F4E222B036DE70029B683 /* ItemDisplaying.swift */; };
+		93AE1C7C2B0B78CC0022A6AB /* SearchScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AE1C7B2B0B78CC0022A6AB /* SearchScope.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		934F4E1E2B0223A30029B683 /* StoreItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreItemController.swift; sourceTree = "<group>"; };
 		934F4E202B034AC50029B683 /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
 		934F4E222B036DE70029B683 /* ItemDisplaying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDisplaying.swift; sourceTree = "<group>"; };
+		93AE1C7B2B0B78CC0022A6AB /* SearchScope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScope.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				934F4E242B03ADED0029B683 /* Views */,
 				934F4E272B03AEF70029B683 /* Protocols */,
 				934F4DFE2B0208CF0029B683 /* AppDelegate.swift */,
+				93AE1C7B2B0B78CC0022A6AB /* SearchScope.swift */,
 				934F4E002B0208CF0029B683 /* SceneDelegate.swift */,
 				934F4E042B0208CF0029B683 /* Main.storyboard */,
 				934F4E072B0208D00029B683 /* Assets.xcassets */,
@@ -192,6 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				934F4E192B020F350029B683 /* StoreItemCollectionViewController.swift in Sources */,
+				93AE1C7C2B0B78CC0022A6AB /* SearchScope.swift in Sources */,
 				934F4E172B020F230029B683 /* StoreItemListTableViewController.swift in Sources */,
 				934F4DFF2B0208CF0029B683 /* AppDelegate.swift in Sources */,
 				934F4E212B034AC50029B683 /* ItemCollectionViewCell.swift in Sources */,
