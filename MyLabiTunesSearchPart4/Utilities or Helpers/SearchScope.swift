@@ -8,9 +8,12 @@
 import Foundation
 import UIKit
 
+/// 表示不同的搜尋範圍。
 enum SearchScope: CaseIterable {
+    /// Enum 的各個條件：all、movies、music、apps和books
     case all, movies, music, apps, books
     
+    /// 根據不同的搜尋範圍，返回相對應的 String。
     var title: String {
         switch self {
         case .all: 
@@ -26,6 +29,7 @@ enum SearchScope: CaseIterable {
         }
     }
     
+    /// 根據不同的搜尋範圍，返回用於 API 查詢的媒體類型。
     var mediaType: String {
         switch self {
         case .all:
